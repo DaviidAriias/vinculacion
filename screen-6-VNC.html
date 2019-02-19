@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="https://www.davivienda.com/PersonasDaviviendaNewTheme/images/faviconDav.ico" type="image/x-icon">
+    <!--  Default Styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--  Animate Styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title> Davivienda S.A. </title>
+</head>
+
+<body>
+    <section class="cont-main-app gray">    
+        <a href="javascript:void(0)" class="btn-back">
+            <img src="images/icon-dv-btnback.svg" alt="Atrás"> Atrás
+        </a>
+    
+        <div class="title-main">
+            <h1>Mis Datos</h1>
+        </div>
+
+        <!--data-nav inicio - clases: active y complete -->
+        <div class="data-nav tracking">
+            <div class="data-nav container">
+                <a href="javascript:void(0)" class="data-nav step complete"></a>
+                <a href="javascript:void(0)" class="data-nav step active"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+            </div>
+        </div>
+        <!-- data-navn fin -->
+
+        <div class="cont-box">
+            <div class="container container-forms-vinculacion">
+                <div class="header-forms">
+                    <h2>Cristian Arias</h2>
+
+                    <div class="sub-data-nav tracking">
+                        <div class="sub-data-nav container">
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step active"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                        </div>
+                    </div> 
+
+                    <span class="sub-title" id="titleUp">Información financiera.</span>
+
+                </div>
+
+                <form action="" class="in-form" id="in-form">
+                    <div class="input">
+                        <label for="valor-deudas">¿Cuál es el valor total de sus deudas?</label>
+                        <select name="" id="valor-deudas">
+                            <option value="-1" selected>Seleccione una opción</option>
+                            <option value="1">Opción 1</option>
+                            <option value="2">Opción 2</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label class="label">¿Realiza transacciones internacionales?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    Habilite y deshabilite las compras virtuales y/o las transacciones internacionales presenciales de sus tarjetas
+                                </p>
+                            </div>
+                        </label>
+                        <label class="radio">
+                            Si
+                            <input type="radio" value="" name="transacciones-internacionales"> 
+                            <div class="radio-indicator"></div>
+                        </label>
+                        <label class="radio">
+                            No
+                            <input type="radio" value="" name="transacciones-internacionales">
+                            <div class="radio-indicator"></div>
+                        </label>
+                    </div>
+                    <div class="input checkboxes">
+                        <label class="label">¿Qué tipo de transacciones internacionales realiza?</label>
+                        <label class="checkbox">
+                            Importación
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Exportación
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Préstamos
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Inversiones
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Remesas
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Giros
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                        <label class="checkbox">
+                            Pago de servicios
+                            <input type="checkbox">
+                            <div class="indicator"></div>
+                        </label>
+                    </div>
+                    <div class="input no-padding">
+                        <label for="valor-ingresos-dolares">¿Cuál es el valor aproximado (en dólares) de dichas transacciones?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    Estime el valor mensual en dólares de las actividades que realiza en moneda extranjera.
+                                </p>
+                            </div>
+                        </label>
+                        <input type="text" id="valor-ingresos-dolares" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="pais-destino-transacciones">¿Cuál es el país destino u origen de sus transacciones?</label>
+                        <input type="text" id="pais-destino-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="ciudad-transacciones">¿Cuál es la ciudad?</label>
+                        <input type="text" id="ciudad-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="estado-transacciones">¿Cuál es el estado?</label>
+                        <input type="text" id="estado-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="banco-transacciones">¿En cúal banco tiene una cuenta en moneda extranjera?</label>
+                        <input type="text" id="banco-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="numero-cuenta-transacciones">¿Cuál es el número de la cuenta?</label>
+                        <input type="number" id="numero-cuenta-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="moneda-transacciones">¿En qué moneda maneja esa cuenta?</label>
+                        <input type="number" id="moneda-transacciones" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="destinatario-transacciones">¿Quién es el destinatario o beneficiario de esta transacción?</label>
+                        <input type="number" id="destinatario-transacciones" value="">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="cont-btn">
+            <button type="button" class="btn-success regresar">Regresar</button>
+            <button type="button" class="btn-success">Continuar</button>
+        </div>
+        
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

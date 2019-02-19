@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="https://www.davivienda.com/PersonasDaviviendaNewTheme/images/faviconDav.ico" type="image/x-icon">
+    <!--  Default Styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--  Animate Styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title> Davivienda S.A. </title>
+</head>
+
+<body>
+    <section class="cont-main-app gray">    
+        <a href="javascript:void(0)" class="btn-back">
+            <img src="images/icon-dv-btnback.svg" alt="Atrás"> Atrás
+        </a>
+        
+        <div class="title-main">
+            <h1>Mis Datos</h1>
+        </div>
+
+        <!--data-nav inicio - clases: active y complete -->
+        <div class="data-nav tracking">
+            <div class="data-nav container">
+                <a href="javascript:void(0)" class="data-nav step complete"></a>
+                <a href="javascript:void(0)" class="data-nav step active"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+            </div>
+        </div>
+        <!-- data-navn fin -->
+
+        <div class="cont-box">
+            <div class="container container-forms-vinculacion">
+                <div class="header-forms">
+                    <h2>Cristian Arias</h2>
+
+                    <div class="sub-data-nav tracking">
+                        <div class="sub-data-nav container">
+                            <a href="javascript:void(0)" class="sub-data-nav step active"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                        </div>
+                    </div> 
+                    
+
+                    <span class="sub-title">Información personal.</span>
+
+                </div>
+
+                <form action="" class="out-form">
+                    <div class="input">
+                        <label for="fecha-exped">¿Cuál es la fecha de expedición de su cédula?</label>
+                        <input type="date" id="fecha-exped" value="">
+                    </div>
+                    <div class="input">
+                        <label for="lugar-exped">¿Cuál es el lugar de expedición de su cédula?</label>
+                        <input type="text" id="lugar-exped" value="">
+                    </div>
+                    <div class="input">
+                        <label for="pais-nacimiento">¿Cuál es su país de nacimiento?</label>
+                        <input type="text" id="pais-nacimiento" value="">
+                    </div>
+                    <div class="input">
+                        <label for="ciudad-nacimiento">¿Cuál es su ciudad de nacimiento?</label>
+                        <input type="text" id="ciudad-nacimiento" value="">
+                    </div>
+                    <div class="input">
+                        <label for="estado-externo">¿En cuál estado?</label>
+                        <input type="text" id="estado-externo" value="">
+                    </div>
+                    <div class="input">
+                        <label for="estado-externo">¿Cuál es su número de celular?</label>
+                        <input type="text" id="estado-externo" value="">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="cont-btn">
+            <button type="button" class="btn-success regresar">Regresar</button>
+            <button type="button" class="btn-success" onclick="document.location.href=this.getAttribute('href');" href="screen-3-VNC.html">Continuar</button>
+        </div>
+        
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

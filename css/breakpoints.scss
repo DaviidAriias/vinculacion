@@ -1,0 +1,158 @@
+/* PC */
+@media (max-width: 91em) {
+    body{
+//        background-color: rgba(255, 0, 0, 0.35);
+    }
+}
+
+/* laptop */
+@media (max-width: 70em) {
+    body{
+//        background-color: rgba(0, 100, 0, 0.46);
+    }
+}
+
+/* Tablet */
+@media (max-width: 64em) {
+    body{
+//        background-color: rgba(139, 69, 19, 0.54);
+    }
+}
+
+/* Phablet */
+@media (max-width: 50em) {
+    body{
+//        background-color: rgba(244, 164, 96, 0.64);
+        background-color: #ededed;
+    }
+
+    h1, h2, label, p, strong, span, input, select, button, a{
+        font-size: 14px !important;
+    }
+    
+    .atencion{
+        span{
+            font-size: 14px !important;
+        }
+    }
+    
+    .tooltip{
+        p{
+            font-size: 12px !important;
+        }
+    }
+    
+    .tag-container{
+        .alias{
+            font-size: 18px !important;
+        }
+        .placa{
+            font-size: 25px !important;
+        }
+    }
+    
+    .container{
+        &.container-menu{
+            .item{
+                .data-caption {
+                    h2{
+                        font-size: 30px !important;
+                    }
+                    p{
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+        form{
+            .input{
+                select, input[type="date"]{
+                    background-size: 14px !important;                    
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                    appearance: none;
+                }
+                .btn-tooltip{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+        &.container-profile{
+            .info-first{
+                p{
+                    font-size: $font-p !important;
+                }
+            }
+        }
+    }
+
+    .cont-btn{
+        .regresar{
+            display: none;
+        }
+    }
+    
+    .btn-back{
+        display: flex;
+    }
+
+    .remodal{
+        p{
+            strong{
+                font-size: 15px !important;
+            }
+            span{
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+/* Mobile */
+@media (max-width: 45em) {
+    body{
+//        background-color: rgba(255, 127, 166, 0.62);
+    }
+    
+}
+
+/* Mobile - Landscape*/
+@media (max-width: 43em) and (orientation: landscape) {
+    body{
+//        background-color: yellowgreen;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
+    
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+    br{
+        display: inline-block;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3){
+    
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
+    
+}
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="https://www.davivienda.com/PersonasDaviviendaNewTheme/images/faviconDav.ico" type="image/x-icon">
+    <!--  Default Styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--  Animate Styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title> Davivienda S.A. </title>
+</head>
+
+<body>
+    <section class="cont-main-app gray">  
+        <a href="javascript:void(0)" class="btn-back">
+            <img src="images/icon-dv-btnback.svg" alt="Atrás"> Atrás
+        </a>     
+        
+        <div class="title-main">
+            <h1>Mis Datos</h1>
+        </div>
+
+        <!--data-nav inicio - clases: active y complete -->
+        <div class="data-nav tracking">
+            <div class="data-nav container">
+                <a href="javascript:void(0)" class="data-nav step complete"></a>
+                <a href="javascript:void(0)" class="data-nav step active"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+            </div>
+        </div>
+        <!-- data-navn fin -->
+
+        <div class="cont-box">
+            <div class="container container-forms-vinculacion">
+                <div class="header-forms">
+                    <h2>Cristian Arias</h2>
+
+                    <div class="sub-data-nav tracking">
+                        <div class="sub-data-nav container">
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step active"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                        </div>
+                    </div> 
+
+                    <span class="sub-title">Información tributaria.</span>
+
+                </div>
+
+                <form action="" class="in-form" id="in-form">
+                    <div class="input no-padding">
+                        <label for="facta-ley">A continuación realizaremos algunas preguntas
+                                relacionadas con la Ley FATCA, cuyas respuestas serán
+                                consignadas en el formato W9. <br><br>
+                                
+                                Verifique si su nombre aparece igual que en la
+                                declaración de impuestos.</label>
+                        <input type="text" id="facta-ley" value="">
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa">¿Cuál es su clasificación tributaria federal en Estados Unidos?</label>
+                        <select name="" id="clasificacion-usa">
+                            <option value="-1" selected>Seleccione una opción</option>
+                            <option value="1">Opción 1</option>
+                            <option value="2">Opción 2</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-add">Anote la clasificación tributaria</label>
+                        <select name="" id="clasificacion-usa-add">
+                            <option value="-1" selected>Seleccione una opción</option>
+                            <option value="1">Opción 1</option>
+                            <option value="2">Opción 2</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-describe">Describa su clasificación tributaria</label>
+                        <input type="text" id="clasificacion-usa-secure" value="">
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-address">¿Cuál es su dirección?</label>
+                        <input type="text" id="clasificacion-usa-address" value="">
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-city">¿Cuál es su ciudad y estado?</label>
+                        <input type="text" id="clasificacion-usa-city" value="">
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-postalcode">¿Cuál es el código postal? (Opcional)</label>
+                        <input type="text" id="clasificacion-usa-postalcode" value="">
+                    </div>
+                    <div class="input">
+                        <label for="clasificacion-usa-secure">¿Cuál es su número de seguro social en Estados Unidos? (TIN)</label>
+                        <input type="text" id="clasificacion-usa-secure" value="">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="cont-btn">
+            <button type="button" class="btn-success regresar">Regresar</button>
+            <button type="button" class="btn-success">Continuar</button>
+        </div>
+        
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="https://www.davivienda.com/PersonasDaviviendaNewTheme/images/faviconDav.ico" type="image/x-icon">
+    <!--  Default Styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--  Animate Styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title> Davivienda S.A. </title>
+</head>
+
+<body>
+    <section class="cont-main-app gray">    
+        <a href="javascript:void(0)" class="btn-back">
+            <img src="images/icon-dv-btnback.svg" alt="Atrás"> Atrás
+        </a>     
+
+        <div class="title-main">
+            <h1>Mis Datos</h1>
+        </div>
+
+        <!--data-nav inicio - clases: active y complete -->
+        <div class="data-nav tracking">
+            <div class="data-nav container">
+                <a href="javascript:void(0)" class="data-nav step complete"></a>
+                <a href="javascript:void(0)" class="data-nav step active"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+                <a href="javascript:void(0)" class="data-nav step"></a>
+            </div>
+        </div>
+        <!-- data-navn fin -->
+
+        <div class="cont-box">
+            <div class="container container-forms-vinculacion">
+                <div class="header-forms">
+                    <h2>Cristian Arias</h2>
+
+                    <div class="sub-data-nav tracking">
+                        <div class="sub-data-nav container">
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step active"></a>
+                            <a href="javascript:void(0)" class="sub-data-nav step"></a>
+                        </div>
+                    </div> 
+
+                    <span class="sub-title" id="titleUp">Información tributaria.</span>
+
+                </div>
+
+                <form action="" class="in-form" id="in-form">
+                    <div class="input">
+                        <label>¿Tiene país de residencia fiscal diferente a Colombia?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    Marque Sí, si usted tiene obligaciones fiscales o tributarias en países diferentes a Colombia.
+                                </p>
+                            </div>
+                        </label>
+                        <label class="radio">
+                            Si
+                            <input type="radio" value="" name="residencia-fiscal"> 
+                            <div class="radio-indicator"></div>
+                        </label>
+                        <label class="radio">
+                            No
+                            <input type="radio" value="" name="residencia-fiscal">
+                            <div class="radio-indicator"></div>
+                        </label>
+                    </div>
+                    <div class="input no-padding">
+                        <label for="pais-tributaria">¿En qué país?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    Elija el país diferente a Colombia en el cual usted tiene obligaciones tributarias.
+                                </p>
+                            </div>
+                        </label>
+                        <input type="number" id="pais-tributaria" value="">
+                    </div>
+                    <div class="input no-padding">
+                        <label for="numero-pais-tributaria">¿Cuál es el número de identificación fiscal en el país indicado?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    EL TIN (Tax Identification Number) es el número de identificación tributaria del país en el cual usted tiene residencia fiscal.
+                                </p>
+                            </div>
+                        </label>
+                        <input type="number" id="numero-pais-tributaria" value="">
+                    </div>
+                    <div class="input">
+                        <label>¿Está usted sujeto a tributación fiscal en los Estados Unidos, es decir es impactado por la <br class="sltln"> ley FACTA?
+                            <a href="javascript:void(0)" class="btn-tooltip"><img src="images/icon-dv-asktooltip.svg" alt=""></a>
+                            <div class="tooltip top">
+                                <p>
+                                    Marque Sí, si cumple con alguna de las siguientes condiciones: <br>
+                                    Nació en USA o tiene ciudadanía norteamericana, tiene pasaporte norteamericano, tiene dos nacionalidades (Norteamericana y otra), tiene tarjeta
+                                    de residencia permanente en USA, ha permanecido más de 182 días en USA en el último año o ha permanecido más de 121 días en promedio en los últimos tres años, 
+                                    exceptuando las permanencias por viaje diplomático, estudios o tratamiento médico.
+                                </p>
+                            </div>
+                        </label>
+                        <label class="radio">
+                            Si
+                            <input type="radio" value="" name="facta-usa"> 
+                            <div class="radio-indicator"></div>
+                        </label>
+                        <label class="radio">
+                            No
+                            <input type="radio" value="" name="facta-usa">
+                            <div class="radio-indicator"></div>
+                        </label>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="cont-btn">
+            <button type="button" class="btn-success regresar">Regresar</button>
+            <button type="button" class="btn-success">Continuar</button>
+        </div>
+        
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
