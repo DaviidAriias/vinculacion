@@ -878,6 +878,7 @@ hr, .separador {
                     input[type="date"] {
                         background: URL('../images/icon-dv-calendar.svg') no-repeat 95% 50% #fff !important;
                         background-size: 20px !important;
+                        height: 42px;
                     }
 
                     input[type="time"] {
@@ -899,6 +900,7 @@ hr, .separador {
                 input[type="text"],input[type="tel"],input[type="email"],
                 input[type="number"],input[type="date"],input[type="time"] {
                     width: 20%;
+                    height: 42px;
                     text-align: center;
                     margin: 0 0;
                 }
@@ -965,8 +967,7 @@ hr, .separador {
                 border: 1.4px solid #7070703d;
                 max-width: 100%;
                 width: 100%;
-                min-height: 42px;
-                height: 43px;
+                height: 42px;
                 border-radius: 6px;
                 //height: 36px;
                 padding: 8px 40px 8px 11px;
@@ -1010,7 +1011,7 @@ hr, .separador {
             input[type="date"]{
                 background: URL('../images/icon-dv-calendar.svg') no-repeat 98% 50% #fff !important;
                 background-size: 18px !important;
-                text-transform: uppercase;
+                height: 42px;
                 &::-webkit-inner-spin-button, 
                 &::-webkit-calendar-picker-indicator{
                     display: none; 

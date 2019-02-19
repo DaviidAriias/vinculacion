@@ -643,7 +643,8 @@ hr, .separador {
           text-transform: uppercase; }
         .container form .input .input-fluid.col-2 input[type="date"] {
           background: URL("../images/icon-dv-calendar.svg") no-repeat 95% 50% #fff !important;
-          background-size: 20px !important; }
+          background-size: 20px !important;
+          height: 42px; }
         .container form .input .input-fluid.col-2 input[type="time"] {
           background: URL("../images/image-cm-hour.png") no-repeat 95% 50% #fff !important;
           background-size: 20px !important; }
@@ -656,6 +657,7 @@ hr, .separador {
         .container form .input .input-fluid input[type="text"], .container form .input .input-fluid input[type="tel"], .container form .input .input-fluid input[type="email"],
         .container form .input .input-fluid input[type="number"], .container form .input .input-fluid input[type="date"], .container form .input .input-fluid input[type="time"] {
           width: 20%;
+          height: 42px;
           text-align: center;
           margin: 0 0; }
         .container form .input .input-fluid span {
@@ -704,8 +706,7 @@ hr, .separador {
         border: 1.4px solid #7070703d;
         max-width: 100%;
         width: 100%;
-        min-height: 42px;
-        height: 43px;
+        height: 42px;
         border-radius: 6px;
         padding: 8px 40px 8px 11px;
         font-size: 16px;
@@ -756,7 +757,7 @@ hr, .separador {
       .container form .input input[type="date"] {
         background: URL("../images/icon-dv-calendar.svg") no-repeat 98% 50% #fff !important;
         background-size: 18px !important;
-        text-transform: uppercase; }
+        height: 42px; }
         .container form .input input[type="date"]::-webkit-inner-spin-button, .container form .input input[type="date"]::-webkit-calendar-picker-indicator {
           display: none;
           -webkit-appearance: none; }
