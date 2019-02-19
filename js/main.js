@@ -49,14 +49,14 @@ buttonheader.addEventListener('click', () => {
         setTimeout(() => {
             container.style.height = height
         }, 0) 
-        document.getElementById('show-more').src="../images/icon-dv-showless.svg";
+        document.getElementById('show-more').src="images/icon-dv-showless.svg";
     } else {
     container.style.height = "0px"
 
     container.addEventListener('transitionend', () => {
         container.classList.remove('active')
         }, {once: true})
-        document.getElementById('show-more').src = "../images/icon-dv-showmore.svg";
+        document.getElementById('show-more').src = "images/icon-dv-showmore.svg";
     }
 })
 
