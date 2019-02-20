@@ -12,6 +12,8 @@ function readyDoc(){
     //Title efect up
     document.getElementById('titleUp').classList.add('animated','slideInUp');
 
+    document.addEventListener("touchstart", function(){}, true);
+
 }
 
 //Toggle personal info
