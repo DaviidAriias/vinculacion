@@ -16,6 +16,15 @@ function readyDoc(){
     var selection = window.getSelection ? window.getSelection() : document.selection ? document.selection : null;
     if(!!selection) selection.empty ? selection.empty() : selection.removeAllRanges();
 
+    var sel = window.getSelection ? window.getSelection() : document.selection;
+    if (sel) {
+        if (sel.removeAllRanges) {
+            sel.removeAllRanges();
+        } else if (sel.empty) {
+            sel.empty();
+        }
+    }
+
 }
 
 //Toggle personal info
