@@ -11,20 +11,6 @@ function readyDoc(){
 
     //Title efect up
     document.getElementById('titleUp').classList.add('animated','slideInUp');
-
-    //Disable touch blue elements
-    var selection = window.getSelection ? window.getSelection() : document.selection ? document.selection : null;
-    if(!!selection) selection.empty ? selection.empty() : selection.removeAllRanges();
-
-    var sel = window.getSelection ? window.getSelection() : document.selection;
-    if (sel) {
-        if (sel.removeAllRanges) {
-            sel.removeAllRanges();
-        } else if (sel.empty) {
-            sel.empty();
-        }
-    }
-
 }
 
 //Toggle personal info
