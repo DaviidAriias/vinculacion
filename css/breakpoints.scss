@@ -69,7 +69,7 @@
                 select, input[type="date"], input{
                     background-size: 16px !important;       
                     background-position: 96% 50% !important;    
-                             
+
                     -moz-appearance: none !important;
                     -webkit-appearance: none !important;
                     appearance: none !important;
@@ -77,6 +77,13 @@
                 .btn-tooltip{
                     width: 16px;
                     height: 16px;
+                }
+                .input-fluid{
+                    select{
+                        background-size: 16px !important;       
+                        background-position: 96% 50% !important;
+                        padding-right: 22px;
+                    }
                 }
             }
         }
