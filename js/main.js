@@ -28,7 +28,6 @@ function PersonalInfo() {
         document.getElementById('info-second').classList.add('animated','fadeIn','delay-.2s');
         toggle();
     });
-    
 }
 
 //Toggle Resultados
