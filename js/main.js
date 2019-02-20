@@ -55,6 +55,6 @@ buttonheader.addEventListener('click', () => {
     container.addEventListener('transitionend', () => {
         container.classList.remove('active')
         }, {once: true})
-        document.getElementById('show-more').src = "images/icon-dv-showmore.svg";
+        document.getElementById('show-more').src = "images/icon-dv-showless.svg";
     }
 })
