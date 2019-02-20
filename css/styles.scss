@@ -25,8 +25,11 @@
 
     font-family: $roboto;
     font-weight: normal;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    -webkit-tap-highlight-color: transparent !important;
 }
+
 
 body {
     max-width: 100%;
