@@ -12,7 +12,9 @@ function readyDoc(){
     //Title efect up
     document.getElementById('titleUp').classList.add('animated','slideInUp');
 
-    document.addEventListener("touchstart", function(){}, true);
+    //Disable touch blue elements
+    var selection = window.getSelection ? window.getSelection() : document.selection ? document.selection : null;
+    if(!!selection) selection.empty ? selection.empty() : selection.removeAllRanges();
 
 }
 
