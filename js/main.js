@@ -9,7 +9,7 @@ function readyDoc(){
         document.getElementById('in-form').classList.add('opacity-full');
     }, 650);
 
-    //Title efect up
+    //Title Efect Up
     document.getElementById('titleUp').classList.add('animated','slideInUp');
 }
 
