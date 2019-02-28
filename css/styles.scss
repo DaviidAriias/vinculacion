@@ -606,7 +606,10 @@ img {
     width: 93%;
     margin: 15px auto 0;
     position: relative;
-    //overflow: hidden;
+
+
+    //height: calc(100vh - 220px);
+    //overflow-y: auto;
 
     transition-duration: .2s;
     &.box-confirm{
